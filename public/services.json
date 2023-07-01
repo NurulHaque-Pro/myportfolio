@@ -1,0 +1,29 @@
+{
+    "services": [
+      {
+        "name": "Web Design",
+        "description": "Create visually appealing and user-friendly websites that captivate visitors and effectively communicate your brand's message."
+      },
+      {
+        "name": "Web Development",
+        "description": "Build custom websites and web applications using the latest technologies to provide seamless functionality and a great user experience."
+      },
+      {
+        "name": "Website Maintenance",
+        "description": "Ensure your website remains secure, up-to-date, and performs optimally with regular maintenance and updates."
+      },
+      {
+        "name": "Ecommerce Website",
+        "description": "Establish a powerful online store with secure payment gateways, intuitive product catalogs, and a smooth shopping experience."
+      },
+      {
+        "name": "Website Redesign",
+        "description": "Transform your outdated website into a modern and engaging online presence that aligns with current design trends and user expectations."
+      },
+      {
+        "name": "WordPress Website",
+        "description": "Leverage the power of WordPress to create feature-rich, customizable websites that are easy to manage and scale."
+      }
+    ]
+  }
+  
