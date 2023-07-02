@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Lottie from "lottie-react";
 import codingAnimation from '../../assets/coding.json'
 import { Typewriter } from 'react-simple-typewriter';
 import nurulImage from '../../assets/Nurul-Haque-image.png'
 import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import ParticlesBg from 'particles-bg';
+
 
 const HeroSection = () => {
 
     const phrases = ['Front-End Developer', 'MERN Stack Specialist', 'WordPress Expert', 'Freelancer'];
+
+    useEffect(() => {
+        document.body.style.backgroundColor = '#121415';
+      }, []);
+
     return (
         <div className='bg-base-200 '>
+             <ParticlesBg type="cobweb" bg={true} />
             <div className="hero min-h-screen container mx-auto">
                 <div className=" py-16 grid md:grid-cols-5 border-b-2 border-[#121415]">
 
@@ -57,6 +65,7 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     );
 };
